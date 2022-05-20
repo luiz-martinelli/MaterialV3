@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:teste_material/pages/button_page.dart';
 import 'package:teste_material/pages/my_home_page.dart';
 import 'package:teste_material/tema_custom.dart';
 
@@ -33,12 +32,9 @@ class App extends StatelessWidget {
             ],
           ),
 
-          home: MyHomePage(title: 'Flutter 3', material3: materialNotifier),
-          // home: const UsuariosPage(),
-          // home: const CounterPage(),
-          //home: const ButtonPage(),
-        );
-      },
+          home: MyHomePage(title: 'Flutter 3', material3: materialNotifier)
+        );        
+      }
     );
   }
 }
